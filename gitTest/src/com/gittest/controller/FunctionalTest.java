@@ -10,7 +10,12 @@ public class FunctionalTest {
 		return "goodee";
 	}
 	
+
 	public void conflict() {
 		System.out.println("충돌충돌!");
+	}
+
+	public int getAge() {
+		return 19;
 	}
 }
